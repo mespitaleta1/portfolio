@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio -MeDev-</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio -meDDev-</title>
 </head>
 <body>
+    
     <nav id="navbar" class="nav">
-        <div class="container">
+        <div class="container nav-container">
+            <div class="logo-icon">
+                <img src="https://i.imgur.com/1qKKMkI.png" class="dev-icon" alt="dev icon"/>
+            </div>
           <ul class="nav-list">
             <li class="nav-list_item">
               <a class="nav-link" href="#welcome-section">
@@ -17,7 +22,7 @@
             </li>
             <li class="nav-list_item">
               <a class="nav-link" href="#aboutme">
-                About Me
+                About 
               </a>
             </li>
             <li class="nav-list_item">
@@ -25,40 +30,346 @@
                 Projects
               </a>
             </li>
-            <li class="nav-list_item">
-              <a class="nav-link" href="#projects">
-                Languages
+            <!--<li class="nav-list_item">
+              <a class="nav-link" href="#contact">
+                Contact
               </a>
-            </li>
+            </li>-->
             <!--la idea de languajes es crear un evento para cambiar el ideoma de la pagina y se traduzca a ingles.-->
           </ul>
+          <div class="usa-flag_icon">
+              <abbr title="translate"> 
+                  <img src="https://media.flaticon.com/dist/min/img/flags/en.svg" class="usa-flag" alt="USA Flag"/>
+                </abbr>
         </div>
+        </div>
+      
       </nav>
   
       <div class="hero">
         <div class="container">
-          <header id="welcome-section" class="first-section">
-            <div class="greeting">
-              <h1 class="title">
-                Hey There, meet <br />
-                Melissa Espitaleta.
-              </h1>
-              <p class="caption-text">
-                A web developer, currently working on HTML <br />
-                and CSS. I love the design!
-              </p>
-            </div>
-  
-            <div class="profile-img">
-              <img
-                class="img"
-                src="../content/profile.jpg"
-                alt=" Melissa profile photo"
-              />
-            </div>
-          </header>
+                <header id="welcome-section" class="first-section">
+                    <div class="greeting">
+                      <h1 class="title">
+                        Creating tech projects, and new experiences 
+                        <!--creating projects  <br />
+                        Melissa Espitaleta.-->
+                      </h1>
+                      <p class="caption-text">
+                        a <strong>Junior Front End Developer</strong> in <strong>COL.</strong><br>
+                        I can create and structure all your dream projects, 
+                        with last technologies and the best implementations. 
+                        Start a new era with me!
+        
+                        <!--A web developer, currently working on HTML <br />
+                        and CSS. I love the design!
+        
+                        A lawyer who is passionate about technology and digital. 
+                        A worker with energy, dynamism, determination to achieve 
+                        any challenge or goal. With self-learning abilities, and 
+                        focus on learn more about the JavaScript ecosystem. Committed 
+                        to generating a big difference with the help of technology, 
+                        keep improving my skills, and never stop learning.-->
+                      </p>
+                    </div>
+          
+                    <div class="profile-img">
+                                           <img
+                        class="img"
+                        src="https://images.unsplash.com/photo-1563306406-e66174fa3787?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt=" Melissa profile photo"
+                      />
+                    </div>
+                </header>   
         </div>
       </div>
+      <section id="aboutme">
+        <div class="container">
+          <div class="wrapper">
+            <div class="text-box">
+              <h2 class="subtitle">About me</h2>
+              <p class="description-text">
+                I am a lawyer who is passionate about technology and digital. 
+                A worker with energy, dynamism, determination to achieve 
+                any challenge or goal. With self-learning abilities, and 
+                focus on learn more about the JavaScript ecosystem. Committed 
+                to generating a big difference with the help of technology, 
+                keep improving my skills, and never stop learning.
+
+                <p class="description-text">
+                    I have been implementing projects in HTML/CSS/JS/ES6, Git, and Github.
+                    furthermore, I  currently started to improve my projects with a React.js framework, and the next step, Redux. 
+                </p>
+              
+                <!--Hola, soy Melissa Espitaleta, abogada de profesión pero developer
+                de corazón. Actualmente me encuentro dedicada y enfocada en el
+                impulso y desarrollo de mi carrera profesional como Front-end
+                developer, con el aprendizaje del lenguaje de programacion
+                JavaScript. Quiero poder proyectar mi carrera a la creación
+                efectiva de aplicaciones single page y websites, ademas de crear
+                soluciones a problemas y necesidades que funcionen para la
+                sociedad.
+              </p>
+              <p class="description-text">
+                Igualmente quiero poder ayudar a otras personas a poder alcanzar
+                ese sueño de ser deresarrollador web, ya sea por canales como
+                redes sociales, meetups u otros medios.
+              </p>-->
+            </div>
+  
+            <div class="img-box">
+              <img
+                class="html-logo"
+                src="../content/html-logo.png"
+                alt="html logo"
+              />
+  
+              <img class="css-logo" src="../content/csslogo.png" alt="css logo" />
+  
+              <img
+                class="js-logo"
+                src="../content/jslogo.png"
+                alt="javascript logo"
+              />
+  
+              <img class="git-logo" src="../content/gitlogo.png" alt="git logo" />
+              <img class="react-logo" src="https://image.flaticon.com/icons/png/512/1126/1126012.png" alt="react.js logo"/>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="projects">
+        <div class="container">
+          <h2 class="subtitle">Projects</h2>
+          <div class="add-box">
+            <div class="card">
+              <img
+                class="img-card"
+                src="https://i.imgur.com/p4F4kHi.jpg"
+                alt="a desk with a type machine"
+              />
+              <div class="card-body">
+                <p class="project-tile">
+                  <strong>
+                    Tribute Page:
+                  </strong>
+                </p>
+                <p class="project-description">
+                  This project was developed to create a tribute page Gabriel
+                  Garcia Marquez.
+                </p>
+                <a
+                  id="profile-link"
+                  class="card-link"
+                  href="https://github.com/mespitaleta1/Tribute_Page"
+                  target="_blank"
+                >
+                  SEE MORE</a
+                >
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                class="img-card"
+                src="https://i.imgur.com/TEisihs.jpg"
+                alt="a man typing in his phone"
+              />
+              <div class="card-body">
+                <p class="project-tile">
+                  <strong>
+                    Survey form:
+                  </strong>
+                </p>
+                <p class="project-description">
+                  This project was developed to create a form for a pay company.
+                </p>
+                <a
+                  class="card-link"
+                  href="https://github.com/mespitaleta1/survey_form"
+                  target="_blank"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                class="img-card"
+                src="https://i.imgur.com/HG6OwI8.jpg"
+                alt="a cup of coffee"
+              />
+              <div class="card-body">
+                <p class="project-tile">
+                  <strong>
+                    Product landing page:
+                  </strong>
+                </p>
+                <p class="project-description">
+                  This project was developed to create a product landing page for
+                  a coffe company.
+                </p>
+                <a
+                  class="card-link"
+                  href="https://github.com/mespitaleta1/ProductLandingPage"
+                  target="_blank"
+                >
+                  SEE MORE</a
+                >
+              </div>
+            </div>
+  
+           <!-- <div class="card">
+              <img
+                class="img-card"
+                src="https://i.imgur.com/yfCzwaz.jpg"
+                alt="two stacked books on a desk"
+              />
+              <div class="card-body">
+                <p class="project-tile">
+                  <strong>
+                    Technical documentation Page:
+                  </strong>
+                </p>
+                <p class="project-description">
+                  This project was developed to create a technical documentation
+                  page of HTML.
+                </p>
+                <a
+                  class="card-link"
+                  href=" https://github.com/mespitaleta1/TechnicalDocPage"
+                  target="_blank"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>-->
+  
+            <div class="card">
+              <img
+                class="img-card"
+                src="../content/moreprojects.jpg"
+                alt="a desktop photo"
+              />
+              <div class="card-body">
+                <p class="add-text1">
+                  <strong>
+                    Portfolio.
+                  </strong>
+                </p>
+                <p>
+                    Here you can see all the technical features added to these Portfolio project.
+                </p>
+                <a
+                class="card-link"
+                href="#"
+                target="_blank"
+                >SEE MORE</a
+              >
+              </div>
+            </div>
+
+            <div class="card">
+                <img
+                  class="img-card"
+                  src="https://images.unsplash.com/photo-1614107151538-f4510e697ba8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG1hcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="a desktop photo"
+                />
+                <div class="card-body">
+                  <p class="add-text1">
+                      <strong>
+                          Country React App:
+                     </strong>
+                  
+                 </p>
+                 <p>
+                    This project was created by React.js, and let the user know about different features of countries in the world. 
+                  </p>
+                  <a
+                class="card-link"
+                href="https://github.com/mespitaleta1/country-react-app"
+                target="_blank"
+                >SEE MORE</a
+              >
+                </div>
+              </div>
+            
+              <div class="card">
+                <img
+                  class="img-card"
+                  src="https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  alt="a desktop photo"
+                />
+                <div class="card-body">
+                  <p class="add-text1">
+                    <strong>
+                      Country Js App: 
+                    </strong>
+                 </p>
+                 <p>
+                    This project was created in JavaScript Vanilla, and also let the user know about different features of countries in the world. 
+                  </p>
+                  <a
+                class="card-link"
+                href="#"
+                target="_blank"
+                >SEE MORE</a
+              >
+                </div>
+              </div>
+
+  
+            <div class="card6">
+              <div class="card-body">
+                <p class="add-text">
+                  More projects comming soon, <br />
+                  wait for it!!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="end-section">
+        <div class="container">
+          <div class="wrap">
+            <div class="social-box">
+              <a
+                class="social-link"
+                href="https://github.com/mespitaleta1"
+                target="_blank"
+              >
+                <img
+                  class="social-img"
+                  src="../content/GithubLogo.png"
+                  alt="github logo"
+                />
+              </a>
+              <a class="social-link" href="https://codesandbox.io/dashboard/repositories/static-template" target="_blank">
+                <img
+                  class="social-img"
+                  src="../content/CodeSandboxLogo.png"
+                  alt="codesandbox logo"
+                />
+              </a>
+              <a
+                class="social-link"
+                href="https://www.linkedin.com/in/melissa-espitaleta-267b90124/"
+                target="_blank"
+              >
+                <img
+                  class="social-img3"
+                  src="../content/LinkedinLogo.png"
+                  alt="linkedin logo"
+                />
+              </a>
+            </div>
+            <p class="contact-email">m.espitaleta1@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+  
     <div class="Portfolio-App"></div>
 </body>
 </html>
