@@ -157,7 +157,8 @@ body {
 
 .git-logo,
 .js-logo,
-.react-logo {
+.react-logo,
+.github-logo {
   width: 90px;
   height: 90px;
   padding: 15px;
@@ -167,7 +168,7 @@ body {
   box-shadow: -4px 1px 9px -9px;
 }
 
-/*section: project */
+/*section 2: project */
 .add-box {
   display: flex;
   justify-content: space-between;
@@ -217,6 +218,10 @@ body {
   color: #087f5b;
   text-align: center;
   text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
 }
 
 .add-text1 {
