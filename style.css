@@ -28,7 +28,7 @@ body {
 
 .nav {
   width: 100%;
-  background: #d3f9d8;
+  background: #79c08a;
   overflow: auto;
   position: fixed;
   display: flex;
@@ -54,7 +54,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #37b24d;
+  color: #243729;
 }
 
 .usa-flag_icon,
@@ -73,11 +73,11 @@ body {
 .hero {
   display: flex;
   margin: 0 auto;
-  background: rgb(12, 205, 163);
+  background: rgb(91, 140, 103);
   background: linear-gradient(
-    138deg,
-    rgba(12, 205, 163, 1) 0%,
-    rgba(193, 252, 211, 1) 56%
+    169deg,
+    rgba(91, 140, 103, 1) 21%,
+    rgba(121, 192, 138, 1) 40%
   );
 }
 
@@ -236,16 +236,19 @@ body {
   font-family: "Satisfy", cursive;
 }
 
-/*Footer section*/
+.non-card {
+  visibility: hidden;
+}
 
+/*Footer section*/
 .end-section {
   width: 100%;
   height: auto;
-  background: rgb(12, 205, 163);
+  background: rgb(91, 140, 103);
   background: linear-gradient(
-    355deg,
-    rgba(12, 205, 163, 1) 0%,
-    rgba(193, 252, 211, 1) 56%
+    343deg,
+    rgba(91, 140, 103, 1) 21%,
+    rgba(121, 192, 138, 1) 40%
   );
 }
 
@@ -433,13 +436,9 @@ body {
   }
 }
 
-/*another link to the country app img card: 
-1.https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80
-2.https://images.unsplash.com/photo-1537072087284-b53024c3f332?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fG1hcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
-3.https://images.unsplash.com/photo-1554623515-3b2f224b92f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y291bnRyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
-4.https://images.unsplash.com/photo-1604549944235-3e5579b15cc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y291bnRyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
-5. USA Flag: https://media.flaticon.com/dist/min/img/flags/en.svg
-6. COL flag: https://image.flaticon.com/icons/png/128/555/555617.png 
-             https://image.flaticon.com/icons/png/128/330/330508.png
-
+/*
+Icons to the change lang feature:  
+1. USA Flag: https://media.flaticon.com/dist/min/img/flags/en.svg
+2. COL flag: https://image.flaticon.com/icons/png/128/555/555617.png 
+             https://image.flaticon.com/icons/png/128/330/330508.png  
 */
